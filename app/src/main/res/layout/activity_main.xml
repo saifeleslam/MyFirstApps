@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.myfirstapp.MainActivity"
+    android:orientation="vertical"
+    android:background="#d7ccc8">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pianto Resturant"
+        android:textSize="34sp"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/resturant" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="address:Damanhour/Egypt"
+        android:textSize="20sp"
+        />
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="phone:01004095446"
+    android:textSize="20sp"
+     />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="website:wwww.pianto.com"
+        android:textSize="20sp"/>
+
+</LinearLayout>
